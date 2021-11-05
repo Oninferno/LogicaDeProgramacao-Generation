@@ -1,24 +1,27 @@
 programa
 {
-	inclua biblioteca Matematica
-	
 	funcao inicio()
 	{
-	//            a      b   c   d     e    f
-		inteiro num1, num2, c, num3, num4, f 
-		inteiro x, y
+		//      a  b  c  d  e  f  		
+		inteiro a, s, d, f, g, h, x, y, calcula
 
-		escreva("Digite cinco valores inteiros para descobrir os valores de x e y: ")
-		leia(num1, num2, num3, num4)
-	
+		escreva("\n","digite o valor de a: ","\n")
+		leia(a)
+		escreva("\n","digite o valor de s: ","\n")
+		leia(s)
+		escreva("\n","digite o valor de d: ","\n")
+		leia(d)
+		escreva("\n","digite o valor de f: ","\n")
+		leia(f)
+		escreva("\n","digite o valor de g: ","\n")
+		leia(g)
+		escreva("\n","digite o valor de h: ","\n")
+		leia(h)
 
-		x = (c * num4 - num2 * f) / (num1 * f - num2 * num3)
-		y = (num1 * f - c * num3) / (num1 * num4 - num2 * num4)
+		x = (d*g)-(s*h)/(a*g)-(s*f)
+		y = (a*h)-(d*f)/(a*g)-(s*f)
 
-		c = num1 * x + num2 * y
-		f = num3 * x + num4 * y 
-		
-		escreva("Os valores de x e y são, respectivamente: ", x, y)
+		escreva("\n","O valor de X é: ",x," e o valor de Y é: ",y,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 518; 
+ * @POSICAO-CURSOR = 567; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
